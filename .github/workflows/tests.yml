@@ -43,7 +43,7 @@ jobs:
       REDIS_HOST: 127.0.0.1
       REDIS_PORT: 6379
       SELF_HOST: "true"
-      BACKEND_AUTH_SECRET: supoclip_test_secret
+      BACKEND_AUTH_SECRET: clipper_ai_test_secret
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -63,8 +63,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NEXT_PUBLIC_SELF_HOST: "true"
-      BACKEND_AUTH_SECRET: supoclip_test_secret
-      BETTER_AUTH_SECRET: supoclip_better_auth_test_secret
+      BACKEND_AUTH_SECRET: clipper_ai_test_secret
+      BETTER_AUTH_SECRET: clipper_ai_better_auth_test_secret
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -128,8 +128,8 @@ jobs:
       REDIS_HOST: 127.0.0.1
       REDIS_PORT: 6379
       NEXT_PUBLIC_SELF_HOST: "true"
-      BACKEND_AUTH_SECRET: supoclip_test_secret
-      BETTER_AUTH_SECRET: supoclip_better_auth_test_secret
+      BACKEND_AUTH_SECRET: clipper_ai_test_secret
+      BETTER_AUTH_SECRET: clipper_ai_better_auth_test_secret
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

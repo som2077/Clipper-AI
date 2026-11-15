@@ -20,6 +20,7 @@ describe("buildBackendAuthHeaders", () => {
     delete process.env.BACKEND_AUTH_SECRET;
 
     expect(buildBackendAuthHeaders("user-1")).toEqual({
+      "x-clipper-ai-user-id": "user-1",
       "x-supoclip-user-id": "user-1",
     });
     expect(getBackendAuthSecret()).toBeNull();
@@ -30,6 +31,7 @@ describe("buildBackendAuthHeaders", () => {
     process.env.BACKEND_AUTH_SECRET = "   ";
 
     expect(buildBackendAuthHeaders("user-1")).toEqual({
+      "x-clipper-ai-user-id": "user-1",
       "x-supoclip-user-id": "user-1",
     });
     expect(getBackendAuthSecret()).toBeNull();
@@ -43,6 +45,10 @@ describe("buildBackendAuthHeaders", () => {
     expect(getBackendAuthSecret()).toBe("secret");
     expect(hasSignedBackendAuth()).toBe(true);
     expect(buildBackendAuthHeaders("user-1")).toEqual({
+      "x-clipper-ai-user-id": "user-1",
+      "x-clipper-ai-ts": "1700000000",
+      "x-clipper-ai-signature":
+        "cceb65b01012f5596122712d023d1def6663579f457362796a52133b3875c545",
       "x-supoclip-user-id": "user-1",
       "x-supoclip-ts": "1700000000",
       "x-supoclip-signature":
