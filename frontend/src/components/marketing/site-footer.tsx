@@ -1,81 +1,119 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { Github, Smartphone } from "lucide-react";
 
+import { WordmarkRevealFooter, type FooterColumn, type FooterSocial } from "@/components/ui/wordmark-reveal-footer";
 import { catalogKey } from "@/i18n/config";
-import { getMarketingLink, getMarketingLinks } from "@/lib/marketing-links";
+import { getMarketingLinks } from "@/lib/marketing-links";
 import { APP_STORE_URL, COMPANY_NAME, GITHUB_URL } from "@/lib/site";
 
-const linkClassName = "hover:text-foreground transition-colors";
-
-/** Crawlable footer shared by the landing page, SEO pages, and blog. */
+/** High-impact wordmark reveal footer shared across landing, blog, and marketing pages. */
 export function SiteFooter() {
   const t = useTranslations("marketing");
-  const columns = [
+
+  const columns: FooterColumn[] = [
     {
-      id: "guides",
-      heading: t("footer.columns.guides"),
-      hrefs: getMarketingLinks("guide").map((link) => link.href),
+      title: t("footer.columns.guides"),
+      links: getMarketingLinks("guide").map((link) => ({
+        label: t(`links.${catalogKey(link.href)}.label`),
+        href: link.href,
+      })),
     },
     {
-      id: "compare",
-      heading: t("footer.columns.compare"),
-      hrefs: [...getMarketingLinks("comparison").map((link) => link.href), "/blog"],
+      title: t("footer.columns.compare"),
+      links: [
+        ...getMarketingLinks("comparison").map((link) => ({
+          label: t(`links.${catalogKey(link.href)}.label`),
+          href: link.href,
+        })),
+        { label: t("links.blog.label"), href: "/blog" },
+      ],
     },
     {
-      id: "product",
-      heading: t("footer.columns.product"),
-      hrefs: [
-        ...getMarketingLinks("product").map((link) => link.href),
-        "/sign-up",
-        "/#pricing",
-        "/faq",
-        "/affiliate",
-        "/changelog",
-        "/status",
-        "/privacy",
-        "/terms",
+      title: t("footer.columns.product"),
+      links: [
+        { label: t("nav.getStarted"), href: "/sign-up" },
+        { label: t("nav.pricing"), href: "/#pricing" },
+        { label: t("links.faq.label"), href: "/faq" },
+        { label: t("links.changelog.label"), href: "/changelog" },
+        { label: t("links.affiliate.label"), href: "/affiliate" },
+        { label: t("links.status.label"), href: "/status" },
       ],
     },
   ];
 
+  const socials: FooterSocial[] = [
+    {
+      label: "GitHub",
+      href: GITHUB_URL,
+      icon: <Github className="size-4" />,
+    },
+    {
+      label: "iOS App",
+      href: APP_STORE_URL,
+      icon: <Smartphone className="size-4" />,
+    },
+    {
+      label: "X (Twitter)",
+      href: "https://x.com",
+      icon: (
+        <svg viewBox="0 0 24 24" fill="currentColor" className="size-3.5" aria-hidden="true">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+        </svg>
+      ),
+    },
+  ];
+
+  const offices = [
+    { city: "San Francisco", timeZone: "America/Los_Angeles" },
+    { city: "London", timeZone: "Europe/London" },
+    { city: "Tokyo", timeZone: "Asia/Tokyo" },
+  ];
+
+  const legal = [
+    { label: t("links.privacy.label"), href: "/privacy" },
+    { label: t("links.terms.label"), href: "/terms" },
+    { label: t("links.status.label"), href: "/status" },
+  ];
+
   return (
-    <footer className="border-t px-6 py-12">
-      <div className="mx-auto grid max-w-6xl gap-10 sm:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr]">
-        <div>
-          <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo.png" alt="Clipper AI" width={24} height={24} className="rounded-md dark:invert" />
-            <span className="text-sm font-semibold" style={{ fontFamily: "var(--font-syne), system-ui" }}>
-              Clipper AI
-            </span>
-          </Link>
-          <p className="mt-3 max-w-xs text-xs leading-6 text-muted-foreground">
-            {t("footer.tagline")}
-          </p>
-          <p className="mt-2 text-xs leading-6 text-muted-foreground">
-            {t("footer.operator", { company: COMPANY_NAME })}
-          </p>
-          <div className="mt-4 flex gap-4 text-xs text-muted-foreground">
-            <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className={linkClassName}>{t("footer.github")}</a>
-            <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className={linkClassName}>{t("footer.ios")}</a>
-            <span>&copy; {new Date().getFullYear()} {COMPANY_NAME}</span>
-          </div>
-        </div>
-        {columns.map((column) => (
-          <nav key={column.id} aria-label={t("footer.columnLinks", { heading: column.heading })}>
-            <p className="text-sm font-medium">{column.heading}</p>
-            <ul className="mt-4 space-y-2.5 text-xs text-muted-foreground">
-              {column.hrefs.map((href) => (
-                <li key={href}>
-                  <Link href={href} lang={getMarketingLink(href)?.language} className={linkClassName}>{t(`links.${catalogKey(href)}.label`)}</Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        ))}
-      </div>
-    </footer>
+    <WordmarkRevealFooter
+      wordmark="CLIPPER AI"
+      brand={{
+        name: "Clipper AI",
+        mark: (
+          <Image
+            src="/logo.png"
+            alt="Clipper AI"
+            width={24}
+            height={24}
+            className="rounded-md brightness-0 invert"
+          />
+        ),
+        blurb: `${t("footer.tagline")} ${t("footer.operator", { company: COMPANY_NAME })}`,
+      }}
+      columns={columns}
+      status={{
+        label: "All systems operational",
+        tone: "ok",
+      }}
+      offices={offices}
+      newsletter={{
+        placeholder: "you@company.com",
+        label: "Subscribe to newsletter",
+        buttonLabel: "Subscribe",
+        doneLabel: "Subscribed",
+        onSubscribe: async () => {
+          return new Promise((resolve) => setTimeout(resolve, 600));
+        },
+      }}
+      socials={socials}
+      legal={legal}
+      reflection={true}
+      reveal="inView"
+      className="border-t border-border/40"
+    />
   );
 }
