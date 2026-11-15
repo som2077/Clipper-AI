@@ -4,6 +4,13 @@ What changed in Clipper AI for people using the product. Newest dates are first.
 
 Add a line here when a pull request changes something a user can see. Use **New**, **Improved**, **Fixed**, or **Under the hood**, describe the change in plain language, and link the pull request. Skip internal-only work, or fold it into one **Under the hood** line. Do not include customer names, email addresses, user IDs, or anything else private.
 
+## 2026-11-15
+
+- **Improved:** Integrated dynamic cycling visual capsule previews and spring-staggered animated entrances into the homepage hero section. ([#360](https://clipper.ai/releases/360))
+- **New:** Added the dynamic notch navbar with inverted concave fillets, spring-animated dropdown mega-menus for Product (interactive Chat, Build, Imagine, and Voice previews) and Pricing tiers, and a responsive mobile accordion menu. ([#359](https://clipper.ai/releases/359))
+- **Improved:** Redesigned the homepage hero experience for first-time visitors with a modern dark theme, frosted glass glowing headline badge, a direct video link and file upload bar, and an interactive 9:16 vertical video preview with real-time caption styling presets. ([#357](https://clipper.ai/releases/357))
+- **Improved:** Replaced the site footer across all marketing and public pages with an animated wordmark reveal footer, live system status indicator, office world clocks, newsletter subscription, and reflective typography. ([#358](https://clipper.ai/releases/358))
+
 ## 2026-11-10
 
 - **Fixed:** When we can't verify a YouTube, Twitch or Kick video's length, the message explains that the stream may still be live and suggests using the completed recording. For YouTube, we check a second source for the length. If that check confirms a region restriction, we suggest uploading the video file. ([#356](https://clipper.ai/releases/356))
