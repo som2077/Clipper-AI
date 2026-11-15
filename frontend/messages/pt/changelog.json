@@ -1,0 +1,19 @@
+{
+  "metaTitle": "Novidades do Clipper AI",
+  "metaDescription": "Novos recursos, melhorias e correções do Clipper AI, do recorte na Twitch e na Kick aos preços e ao editor.",
+  "ogTitle": "Novidades do Clipper AI",
+  "ogDescription": "O que mudou no Clipper AI para quem usa o produto. As atualizações mais recentes vêm primeiro.",
+  "eyebrow": "Atualizações",
+  "title": "Novidades",
+  "intro": "O que mudou para quem usa o Clipper AI. As atualizações mais recentes vêm primeiro.",
+  "hostedApp": "App hospedado",
+  "startClipping": "Comece a criar clipes",
+  "relatedChange": "Alteração relacionada {label}",
+  "viewOnGitHub": "Ver o changelog no GitHub",
+  "categories": {
+    "new": "Novo",
+    "improved": "Melhorado",
+    "fixed": "Corrigido",
+    "underTheHood": "Nos bastidores"
+  }
+}

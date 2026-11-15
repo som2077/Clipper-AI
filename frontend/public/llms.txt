@@ -1,0 +1,55 @@
+# Clipper AI
+
+> Clipper AI is an proprietary AI video clipper that turns long videos into captioned, vertical short-form clips for YouTube Shorts, TikTok, Instagram Reels, and similar platforms.
+
+Clipper AI can be used as a hosted web application, as a native iOS app, or self-hosted from its Proprietary source code. The workflow accepts YouTube URLs and uploaded video files, transcribes the source, proposes promising segments, scores candidate clips, creates face-aware vertical crops, adds word-synced captions, and exports platform-ready videos.
+
+## Canonical website
+
+- [Clipper AI](https://www.clipper-ai.com/): Product overview, features, pricing, and hosted application access.
+- [GitHub repository](https://github.com/FujiwaraChoki/clipper-ai): Source code, setup instructions, architecture, license, and contribution history.
+- [Clipper AI for iOS](https://apps.apple.com/us/app/clipper-ai/id6784760040): Native iPhone app on the App Store, backed by the hosted service.
+
+## Product pages
+
+- [AI video clipper](https://www.clipper-ai.com/ai-video-clipper): AI-assisted highlight detection, virality scoring, captions, and exports.
+- [Proprietary video clipper](https://www.clipper-ai.com/proprietary-video-clipper): Self-hosting, source access, provider choice, and deployment tradeoffs.
+- [YouTube Shorts clipper](https://www.clipper-ai.com/youtube-shorts-clipper): Workflow for repurposing long YouTube videos into vertical Shorts.
+- [Demo](https://www.clipper-ai.com/demo): Real clips generated from a long-form interview, with source timestamps and pipeline steps.
+
+## Guides and comparisons
+
+- [Clipper AI Blog](https://www.clipper-ai.com/blog): Product comparisons and practical video-clipping workflows.
+- [Self-host Clipper AI with Docker Compose](https://www.clipper-ai.com/blog/self-host-clipper-ai-docker): Requirements, environment setup, fully local Whisper + Ollama option, and production checklist.
+- [Clipper AI vs OpusClip](https://www.clipper-ai.com/blog/clipper-ai-vs-opusclip): Sourced comparison of deployment, pricing model, watermarks, and workflow.
+- [Best free, self-hosted OpusClip alternative](https://www.clipper-ai.com/blog/best-free-opusclip-alternative): When self-hosting the proprietary app beats a credit-based tool.
+- [Clipper AI vs supo.live](https://www.clipper-ai.com/blog/clipper-ai-vs-supo-live): Proprietary control compared with a hosted live-clipping service.
+
+## Key capabilities
+
+- AI-assisted clip discovery and candidate scoring.
+- YouTube URL and uploaded-file inputs.
+- Face-aware 9:16 vertical reframing.
+- Word-synced animated captions and caption templates.
+- Export presets for YouTube Shorts, TikTok, and Instagram Reels.
+- Hosted web usage, an iOS app, or Proprietary self-hosting.
+- Support for configured hosted language-model providers or Ollama.
+- Transcription via AssemblyAI (default), local Whisper, or YouTube captions.
+- REST API with per-user API keys, and an MCP server for AI clients.
+- No watermark on exported clips.
+
+## Important qualifications
+
+- Virality scores prioritize candidates; they do not guarantee audience performance.
+- The source code is free, but self-hosters provide their own infrastructure and any paid transcription or model-provider usage.
+- The hosted service requires a paid plan (Pro or Scale) to process videos; self-hosted installs have no plan limits.
+- Users should process only videos they own or have permission to repurpose.
+- Product capabilities and pricing can change; use the canonical website and repository for current details.
+
+## Publisher
+
+- Name: Clipper AI Team
+- Website: https://www.clipper-ai.com/
+- Source: https://github.com/FujiwaraChoki/clipper-ai
+- Contact: support@clipper-ai.com
+- Last reviewed: 2026-10-05
