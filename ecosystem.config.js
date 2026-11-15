@@ -10,7 +10,7 @@ module.exports = {
     {
       name: "clipper-ai-backend",
       cwd: path.join(__dirname, "backend"),
-      script: path.join(__dirname, "backend/.venv/bin/uvicorn"),
+      script: "./.venv/bin/uvicorn",
       args: "src.main:app --host 0.0.0.0 --port 8000",
       interpreter: "none",
       env: {
@@ -41,7 +41,7 @@ module.exports = {
     {
       name: "clipper-ai-worker",
       cwd: path.join(__dirname, "backend"),
-      script: path.join(__dirname, "backend/.venv/bin/python"),
+      script: "./.venv/bin/python",
       args: "-m src.workers.run_workers",
       interpreter: "none",
       env: {
