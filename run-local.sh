@@ -88,7 +88,8 @@ check_status() {
     echo "============================================"
 }
 
-case "$1" in
+ACTION="${1:-start}"
+case "$ACTION" in
     start)
         start_services
         ;;

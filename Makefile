@@ -1,7 +1,25 @@
 BACKEND_TEST_ENV = DATABASE_URL=$${TEST_DATABASE_URL:-$${DATABASE_URL:-postgresql+asyncpg://supoclip:supoclip_password@127.0.0.1:5432/supoclip}} REDIS_HOST=$${REDIS_HOST:-127.0.0.1} REDIS_PORT=$${REDIS_PORT:-6379}
-FRONTEND_TEST_ENV = DATABASE_URL=$${TEST_DATABASE_URL:-$${DATABASE_URL:-postgresql://supoclip:supoclip_password@127.0.0.1:5432/supoclip}} BACKEND_AUTH_SECRET=$${BACKEND_AUTH_SECRET:-supoclip_test_secret} BETTER_AUTH_SECRET=$${BETTER_AUTH_SECRET:-supoclip_better_auth_test_secret} NEXT_PUBLIC_SELF_HOST=true
+FRONTEND_TEST_ENV = DATABASE_URL=$${TEST_DATABASE_URL:-$${DATABASE_URL:-postgresql://supoclip:supoclip_password@127.0.0.1:5432/supoclip}} BACKEND_AUTH_SECRET=$${BACKEND_AUTH_SECRET:-clipper_ai_test_secret} BETTER_AUTH_SECRET=$${BETTER_AUTH_SECRET:-clipper_ai_better_auth_test_secret} NEXT_PUBLIC_SELF_HOST=true
 
-.PHONY: test check test-backend test-frontend test-e2e test-ci
+.PHONY: test check test-backend test-frontend test-e2e test-ci start stop restart status logs deploy
+
+start:
+	./run-local.sh start
+
+stop:
+	./run-local.sh stop
+
+restart:
+	./run-local.sh restart
+
+status:
+	./run-local.sh status
+
+logs:
+	./run-local.sh logs
+
+deploy:
+	./deploy.sh
 
 test: test-backend test-frontend
 
