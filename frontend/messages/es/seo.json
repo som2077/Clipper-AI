@@ -132,7 +132,7 @@
       }
     }
   },
-  "proprietary-video-clipper": {
+  "open-source-video-clipper": {
     "metaTitle": "Recortador de video de código abierto que puedes autoalojar",
     "metaDescription": "Clipper AI es un recortador de video con IA de código abierto para detectar momentos, recortes verticales que siguen el rostro, subtítulos y exportaciones de formato corto en tu propio servidor.",
     "eyebrow": "Código abierto y autoalojado",
@@ -304,7 +304,7 @@
       "body": "Usa una grabación propia o que puedas reutilizar. Elige ideas completas y exporta o publica con las opciones disponibles en tu cuenta.",
       "button": "Convertir mi vídeo en Shorts"
     },
-    "proprietary-video-clipper": {
+    "open-source-video-clipper": {
       "title": "Elige cómo ejecutar tu herramienta de clips",
       "body": "Usa el flujo de código abierto en tu infraestructura o elige alojamiento gestionado para centrarte en crear clips.",
       "button": "Usar la app alojada"

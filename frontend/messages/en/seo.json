@@ -132,7 +132,7 @@
       }
     }
   },
-  "proprietary-video-clipper": {
+  "open-source-video-clipper": {
     "metaTitle": "Open-Source Video Clipper You Can Self-Host",
     "metaDescription": "Self-host Clipper AI for AI clip discovery, editable captions, vertical framing, and exports. Compare local and hosted processing, real output, setup, and costs.",
     "eyebrow": "Open Source & Self-Hosted",
@@ -304,7 +304,7 @@
       "body": "Bring a recording you own or can repurpose. Create a shortlist of complete ideas, then export or publish through the options available to your account.",
       "button": "Turn my video into Shorts"
     },
-    "proprietary-video-clipper": {
+    "open-source-video-clipper": {
       "title": "Choose how you want to run your clipper",
       "body": "Use the same proprietary workflow on your own infrastructure or choose managed hosting to focus on creating clips.",
       "button": "Use the hosted app"

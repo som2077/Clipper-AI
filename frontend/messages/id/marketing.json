@@ -78,13 +78,13 @@
       "title": "Video clipper proprietary yang bisa kamu kendalikan",
       "description": "Apa yang berubah saat host sendiri: kendali, penyedia model, dan infrastruktur."
     },
-    "blog_self_host_clipper-ai_docker": {
+    "blog_self_host_supoclip_docker": {
       "label": "Panduan host sendiri",
       "eyebrow": "Panduan Host Sendiri",
       "title": "Host sendiri Clipper AI dengan Docker Compose",
       "description": "Kebutuhan, variabel environment, boot pertama, penyiapan yang sepenuhnya lokal, dan pemeriksaan produksi."
     },
-    "blog_clipper-ai_vs_opusclip": {
+    "blog_supoclip_vs_opusclip": {
       "label": "Clipper AI vs OpusClip",
       "eyebrow": "Perbandingan",
       "title": "Clipper AI vs OpusClip: perbandingan bersumber",
@@ -96,7 +96,7 @@
       "title": "Alternatif OpusClip gratis terbaik yang di-host sendiri",
       "description": "Kapan clipper proprietary yang di-host sendiri lebih tepat daripada alat berbasis kredit."
     },
-    "blog_clipper-ai_vs_supo_live": {
+    "blog_supoclip_vs_supo_live": {
       "label": "Clipper AI vs supo.live",
       "eyebrow": "Perbandingan",
       "title": "Clipper AI vs supo.live: kendali proprietary",

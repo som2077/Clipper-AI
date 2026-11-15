@@ -132,7 +132,7 @@
       }
     }
   },
-  "proprietary-video-clipper": {
+  "open-source-video-clipper": {
     "metaTitle": "可以自托管的开源视频剪辑工具",
     "metaDescription": "Clipper AI 是开源的 AI 视频剪辑工具，可在你自己的服务器上做高光检测、跟随人脸的竖屏裁切、字幕和短视频导出。",
     "eyebrow": "开源与自托管",
@@ -304,7 +304,7 @@
       "body": "使用你拥有或获准再利用的录制内容。挑选完整的观点，再通过账户可用的选项导出或发布。",
       "button": "把我的视频转成 Shorts"
     },
-    "proprietary-video-clipper": {
+    "open-source-video-clipper": {
       "title": "选择片段工具的运行方式",
       "body": "在自己的基础设施上运行开源工作流程，或选择托管服务，专注于创作片段。",
       "button": "使用托管应用"

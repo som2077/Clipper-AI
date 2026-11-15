@@ -132,7 +132,7 @@
       }
     }
   },
-  "proprietary-video-clipper": {
+  "open-source-video-clipper": {
     "metaTitle": "Open-Source-Video-Clipper, den du selbst hosten kannst",
     "metaDescription": "Clipper AI ist ein Open-Source-KI-Video-Clipper für selbst gehostete Highlight-Erkennung, gesichtsbezogene vertikale Ausschnitte, Untertitel und Kurzformat-Exporte.",
     "eyebrow": "Open Source und selbst gehostet",
@@ -304,7 +304,7 @@
       "body": "Nutze eine Aufnahme, die du verwenden darfst. Wähle vollständige Gedanken aus und exportiere oder veröffentliche mit den Optionen deines Kontos.",
       "button": "Mein Video in Shorts verwandeln"
     },
-    "proprietary-video-clipper": {
+    "open-source-video-clipper": {
       "title": "Wähle, wie du deinen Clipper betreiben möchtest",
       "body": "Nutze den Open-Source-Ablauf auf deiner Infrastruktur oder wähle verwaltetes Hosting, um dich auf die Clips zu konzentrieren.",
       "button": "Gehostete App nutzen"

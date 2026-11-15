@@ -34,7 +34,7 @@
     "moreGuides": "Panduan clipping lainnya",
     "productGuides": "Panduan produk"
   },
-  "clipper-ai-vs-supo-live": {
+  "supoclip-vs-supo-live": {
     "title": "Clipper AI vs supo.live: Kenapa Open Source Menang",
     "description": "Bandingkan Clipper AI dan supo.live untuk AI video clipping. Lihat kenapa Clipper AI unggul untuk kendali proprietary, host sendiri, dan alur video yang bisa disesuaikan.",
     "eyebrow": "Alternatif Supo.live",
@@ -77,27 +77,27 @@
       "rows": {
         "deployment": {
           "label": "Deployment",
-          "clipper-ai": "Aplikasi yang di-host atau deployment yang di-host sendiri",
+          "supoclip": "Aplikasi yang di-host atau deployment yang di-host sendiri",
           "supolive": "Layanan yang di-host"
         },
         "source": {
           "label": "Akses sumber",
-          "clipper-ai": "Repositori Proprietary publik",
+          "supoclip": "Repositori Proprietary publik",
           "supolive": "Tidak ada opsi proprietary atau host sendiri yang diiklankan di halaman utamanya"
         },
         "usecase": {
           "label": "Kasus pemakaian utama",
-          "clipper-ai": "Video panjang yang direkam jadi short vertikal",
+          "supoclip": "Video panjang yang direkam jadi short vertikal",
           "supolive": "Siaran langsung dan video yang direkam"
         },
         "customization": {
           "label": "Kustomisasi",
-          "clipper-ai": "Ubah kode dan konfigurasi penyedia LLM",
+          "supoclip": "Ubah kode dan konfigurasi penyedia LLM",
           "supolive": "Pakai editor dan pengaturan layanannya"
         },
         "usage": {
           "label": "Model pemakaian",
-          "clipper-ai": "Host sendiri memakai komputasi dan anggaran penyedia milikmu",
+          "supoclip": "Host sendiri memakai komputasi dan anggaran penyedia milikmu",
           "supolive": "Paket langganan dengan kredit pemrosesan"
         }
       }
@@ -193,7 +193,7 @@
     },
     "closing": "Jelajahi <openSource>panduan video clipper proprietary</openSource> kami atau baca <comparison>perbandingan Clipper AI vs OpusClip</comparison>."
   },
-  "clipper-ai-vs-opusclip": {
+  "supoclip-vs-opusclip": {
     "title": "Clipper AI vs OpusClip: Perbandingan Bersumber",
     "description": "Clipper AI vs OpusClip dibandingkan pada deployment, model harga, watermark, pilihan model, dan alur kerja, dengan sumber yang tertaut untuk setiap klaim.",
     "eyebrow": "Perbandingan OpusClip",
@@ -206,7 +206,7 @@
       "verdict": "Jawaban singkat",
       "comparison": "Berdampingan",
       "pricing": "Model harga",
-      "choose-clipper-ai": "Kapan Clipper AI cocok",
+      "choose-supoclip": "Kapan Clipper AI cocok",
       "choose-opusclip": "Kapan OpusClip cocok",
       "test": "Jalankan tesmu sendiri",
       "sources": "Sumber",
@@ -234,7 +234,7 @@
     "introNote": "Halaman ini tidak menilai kualitas clip, akurasi caption, atau kecepatan pemrosesan. Untuk membandingkan itu, lihat <test>cara menjalankan tesmu sendiri</test>.",
     "verdict": {
       "heading": "Jawaban singkatnya",
-      "clipper-ai": "<strong>Pilih Clipper AI</strong> kalau kamu ingin host sendiri, memeriksa atau mengubah kode, memilih model AI-mu sendiri (termasuk yang sepenuhnya lokal), atau mengekspor tanpa watermark.",
+      "supoclip": "<strong>Pilih Clipper AI</strong> kalau kamu ingin host sendiri, memeriksa atau mengubah kode, memilih model AI-mu sendiri (termasuk yang sepenuhnya lokal), atau mengekspor tanpa watermark.",
       "opusclip": "<strong>Pilih OpusClip</strong> kalau kamu ingin produk yang dikelola dan tidak perlu di-deploy, dan ingin mulai di paket gratis."
     },
     "comparison": {
@@ -246,34 +246,34 @@
     "rows": {
       "deployment": {
         "label": "Cara menjalankannya",
-        "clipper-ai": "Aplikasi yang di-host, aplikasi iOS, atau host sendiri dengan <compose>Docker Compose</compose>",
+        "supoclip": "Aplikasi yang di-host, aplikasi iOS, atau host sendiri dengan <compose>Docker Compose</compose>",
         "opusclip": "Layanan yang di-host"
       },
       "source": {
         "label": "Kode sumber",
-        "clipper-ai": "Publik, <license>Proprietary</license>"
+        "supoclip": "Publik, <license>Proprietary</license>"
       },
       "pricing": {
         "label": "Model harga",
-        "clipper-ai": "Yang di-host: paket bulanan dengan jumlah video tetap. Yang di-host sendiri: tanpa batas paket.",
+        "supoclip": "Yang di-host: paket bulanan dengan jumlah video tetap. Yang di-host sendiri: tanpa batas paket.",
         "opusclip": "Paket dengan kredit untuk menit pemrosesan, plus paket gratis (<plans>pusat bantuan</plans>)"
       },
       "watermark": {
         "label": "Watermark",
-        "clipper-ai": "Tidak ada; <pipeline>pipeline render</pipeline> tidak punya langkah watermark",
+        "supoclip": "Tidak ada; <pipeline>pipeline render</pipeline> tidak punya langkah watermark",
         "opusclip": "Ekspor paket gratis bisa menyertakannya (<watermark>pusat bantuan</watermark>)"
       },
       "models": {
         "label": "Pilihan model AI",
-        "clipper-ai": "OpenAI, Google, Anthropic, OpenRouter, atau Ollama lokal (<config>konfigurasi</config>)"
+        "supoclip": "OpenAI, Google, Anthropic, OpenRouter, atau Ollama lokal (<config>konfigurasi</config>)"
       },
       "transcription": {
         "label": "Transkripsi",
-        "clipper-ai": "AssemblyAI, Whisper lokal, atau caption YouTube"
+        "supoclip": "AssemblyAI, Whisper lokal, atau caption YouTube"
       },
       "automation": {
         "label": "Otomatisasi",
-        "clipper-ai": "REST API dengan kunci per pengguna dan <mcp>server MCP</mcp>"
+        "supoclip": "REST API dengan kunci per pengguna dan <mcp>server MCP</mcp>"
       }
     },
     "pricing": {
@@ -306,10 +306,10 @@
     "sources": {
       "heading": "Sumber",
       "opus": "Pusat bantuan OpusClip: <plans>Paket dan kredit</plans> serta <watermark>Watermark</watermark>. Paket bisa berubah; konfirmasi detail terkini di <site>opus.pro</site>.",
-      "clipper-ai": "Clipper AI: <repo>repositori publik</repo>, termasuk <compose>docker-compose.yml</compose>, <config>dokumen konfigurasi</config>, dan <billing>aturan tagihan</billing>. Harga yang di-host berasal dari bagian harga di clipper-ai.com."
+      "supoclip": "Clipper AI: <repo>repositori publik</repo>, termasuk <compose>docker-compose.yml</compose>, <config>dokumen konfigurasi</config>, dan <billing>aturan tagihan</billing>. Harga yang di-host berasal dari bagian harga di clipper-ai.com."
     }
   },
-  "self-host-clipper-ai-docker": {
+  "self-host-supoclip-docker": {
     "title": "Cara Host Sendiri Clipper AI dengan Docker Compose",
     "description": "Host sendiri Clipper AI, AI video clipper proprietary: kebutuhan, penyiapan .env, opsi Whisper + Ollama yang sepenuhnya lokal, pemeriksaan pertama, dan daftar periksa produksi.",
     "eyebrow": "Panduan Host Sendiri",
@@ -510,22 +510,22 @@
       "rows": {
         "0": {
           "feature": "Model pemakaian gratis",
-          "clipper-ai": "Proprietary dan bisa di-host sendiri tanpa batas paket. Biayamu adalah komputasi dan kunci API milikmu. Aplikasi yang di-host berbayar.",
+          "supoclip": "Proprietary dan bisa di-host sendiri tanpa batas paket. Biayamu adalah komputasi dan kunci API milikmu. Aplikasi yang di-host berbayar.",
           "opusclip": "Paket gratis ada, tapi ekspor bisa menyertakan watermark OpusClip."
         },
         "1": {
           "feature": "Penemuan clip",
-          "clipper-ai": "Mentranskripsi video panjang, menilai segmen, dan memunculkan momen pendek yang menjanjikan.",
+          "supoclip": "Mentranskripsi video panjang, menilai segmen, dan memunculkan momen pendek yang menjanjikan.",
           "opusclip": "Alur AI clipping yang dibuat untuk menemukan clip siap sosial dari video panjang."
         },
         "2": {
           "feature": "Format vertikal",
-          "clipper-ai": "Crop 9:16 yang berpusat pada wajah, subtitle, dan ekspor yang siap platform.",
+          "supoclip": "Crop 9:16 yang berpusat pada wajah, subtitle, dan ekspor yang siap platform.",
           "opusclip": "Menawarkan ekspor konten pendek dan reframing AI untuk platform sosial."
         },
         "3": {
           "feature": "Kendali",
-          "clipper-ai": "Akses sumber penuh, deployment yang bisa diedit, dan tanpa vendor lock-in.",
+          "supoclip": "Akses sumber penuh, deployment yang bisa diedit, dan tanpa vendor lock-in.",
           "opusclip": "Produk yang di-host dengan alur yang dikelola dan tingkat langganan."
         }
       }

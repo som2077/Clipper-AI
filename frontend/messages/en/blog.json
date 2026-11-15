@@ -34,7 +34,7 @@
     "moreGuides": "More clipping guides",
     "productGuides": "Product guides"
   },
-  "clipper-ai-vs-supo-live": {
+  "supoclip-vs-supo-live": {
     "title": "Clipper AI vs supo.live: Why Open Source Wins",
     "description": "Compare Clipper AI and supo.live for AI video clipping. See why Clipper AI wins for proprietary control, self-hosting, and customizable video workflows.",
     "eyebrow": "Supo.live Alternative",
@@ -77,27 +77,27 @@
       "rows": {
         "deployment": {
           "label": "Deployment",
-          "clipper-ai": "Hosted app or self-hosted deployment",
+          "supoclip": "Hosted app or self-hosted deployment",
           "supolive": "Hosted service"
         },
         "source": {
           "label": "Source access",
-          "clipper-ai": "Public Proprietary repository",
+          "supoclip": "Public Proprietary repository",
           "supolive": "No proprietary or self-hosting option advertised on its homepage"
         },
         "usecase": {
           "label": "Core use case",
-          "clipper-ai": "Recorded long videos into vertical shorts",
+          "supoclip": "Recorded long videos into vertical shorts",
           "supolive": "Live broadcasts and recorded videos"
         },
         "customization": {
           "label": "Customization",
-          "clipper-ai": "Modify the code and configure the LLM provider",
+          "supoclip": "Modify the code and configure the LLM provider",
           "supolive": "Use the service’s editor and settings"
         },
         "usage": {
           "label": "Usage model",
-          "clipper-ai": "Self-hosting uses your compute and provider budget",
+          "supoclip": "Self-hosting uses your compute and provider budget",
           "supolive": "Subscription plans with processing credits"
         }
       }
@@ -193,7 +193,7 @@
     },
     "closing": "Explore our <openSource>proprietary video clipper guide</openSource> or read the <comparison>Clipper AI vs OpusClip comparison</comparison>."
   },
-  "clipper-ai-vs-opusclip": {
+  "supoclip-vs-opusclip": {
     "title": "Clipper AI vs OpusClip: A Sourced Comparison",
     "description": "Clipper AI vs OpusClip compared on deployment, pricing model, watermarks, model choice, and workflow, with a source linked for every claim.",
     "eyebrow": "OpusClip Comparison",
@@ -206,7 +206,7 @@
       "verdict": "Short answer",
       "comparison": "Side by side",
       "pricing": "Pricing model",
-      "choose-clipper-ai": "When Clipper AI fits",
+      "choose-supoclip": "When Clipper AI fits",
       "choose-opusclip": "When OpusClip fits",
       "test": "Run your own test",
       "sources": "Sources",
@@ -234,7 +234,7 @@
     "introNote": "This page doesn't rate clip quality, caption accuracy, or processing speed. To compare those, see <test>how to run your own test</test>.",
     "verdict": {
       "heading": "The short answer",
-      "clipper-ai": "<strong>Choose Clipper AI</strong> if you want to self-host, inspect or modify the code, pick your own AI models (including fully local ones), or export without a watermark.",
+      "supoclip": "<strong>Choose Clipper AI</strong> if you want to self-host, inspect or modify the code, pick your own AI models (including fully local ones), or export without a watermark.",
       "opusclip": "<strong>Choose OpusClip</strong> if you want a managed product you never have to deploy, and want to start on a free plan."
     },
     "comparison": {
@@ -246,34 +246,34 @@
     "rows": {
       "deployment": {
         "label": "How you run it",
-        "clipper-ai": "Hosted app, iOS app, or self-hosted with <compose>Docker Compose</compose>",
+        "supoclip": "Hosted app, iOS app, or self-hosted with <compose>Docker Compose</compose>",
         "opusclip": "Hosted service"
       },
       "source": {
         "label": "Source code",
-        "clipper-ai": "Public, <license>Proprietary</license>"
+        "supoclip": "Public, <license>Proprietary</license>"
       },
       "pricing": {
         "label": "Pricing model",
-        "clipper-ai": "Hosted: monthly plans with a fixed number of videos. Self-hosted: no plan limits.",
+        "supoclip": "Hosted: monthly plans with a fixed number of videos. Self-hosted: no plan limits.",
         "opusclip": "Plans with credits for processing minutes, plus a free plan (<plans>help center</plans>)"
       },
       "watermark": {
         "label": "Watermark",
-        "clipper-ai": "None; the <pipeline>render pipeline</pipeline> has no watermark step",
+        "supoclip": "None; the <pipeline>render pipeline</pipeline> has no watermark step",
         "opusclip": "Free-plan exports can include one (<watermark>help center</watermark>)"
       },
       "models": {
         "label": "AI model choice",
-        "clipper-ai": "OpenAI, Google, Anthropic, OpenRouter, or local Ollama (<config>config</config>)"
+        "supoclip": "OpenAI, Google, Anthropic, OpenRouter, or local Ollama (<config>config</config>)"
       },
       "transcription": {
         "label": "Transcription",
-        "clipper-ai": "AssemblyAI, local Whisper, or YouTube captions"
+        "supoclip": "AssemblyAI, local Whisper, or YouTube captions"
       },
       "automation": {
         "label": "Automation",
-        "clipper-ai": "REST API with per-user keys and an <mcp>MCP server</mcp>"
+        "supoclip": "REST API with per-user keys and an <mcp>MCP server</mcp>"
       }
     },
     "pricing": {
@@ -306,10 +306,10 @@
     "sources": {
       "heading": "Sources",
       "opus": "OpusClip help center: <plans>Plans and credits</plans> and <watermark>Watermark</watermark>. Plans can change; confirm current details on <site>opus.pro</site>.",
-      "clipper-ai": "Clipper AI: <repo>public repository</repo>, including <compose>docker-compose.yml</compose>, <config>configuration docs</config>, and <billing>billing rules</billing>. Hosted prices are from the pricing section of clipper-ai.com."
+      "supoclip": "Clipper AI: <repo>public repository</repo>, including <compose>docker-compose.yml</compose>, <config>configuration docs</config>, and <billing>billing rules</billing>. Hosted prices are from the pricing section of clipper-ai.com."
     }
   },
-  "self-host-clipper-ai-docker": {
+  "self-host-supoclip-docker": {
     "title": "How to Self-Host Clipper AI with Docker Compose",
     "description": "Self-host Clipper AI, the proprietary AI video clipper: requirements, .env setup, a fully local Whisper + Ollama option, first-run checks, and a production checklist.",
     "eyebrow": "Self-Hosting Guide",
@@ -510,22 +510,22 @@
       "rows": {
         "0": {
           "feature": "Free usage model",
-          "clipper-ai": "Proprietary and self-hostable with no plan limits. Your costs are your own compute and API keys. The hosted app is paid.",
+          "supoclip": "Proprietary and self-hostable with no plan limits. Your costs are your own compute and API keys. The hosted app is paid.",
           "opusclip": "Free plan exists, but exports can include an OpusClip watermark."
         },
         "1": {
           "feature": "Clip discovery",
-          "clipper-ai": "Transcribes long videos, scores segments, and surfaces promising short-form moments.",
+          "supoclip": "Transcribes long videos, scores segments, and surfaces promising short-form moments.",
           "opusclip": "AI clipping workflow built for finding social-ready clips from long videos."
         },
         "2": {
           "feature": "Vertical formatting",
-          "clipper-ai": "Face-centered 9:16 cropping, subtitles, and platform-ready exports.",
+          "supoclip": "Face-centered 9:16 cropping, subtitles, and platform-ready exports.",
           "opusclip": "Offers short-form exports and AI reframing for social platforms."
         },
         "3": {
           "feature": "Control",
-          "clipper-ai": "Full source access, editable deployment, and no vendor lock-in.",
+          "supoclip": "Full source access, editable deployment, and no vendor lock-in.",
           "opusclip": "Hosted product with managed workflows and subscription tiers."
         }
       }

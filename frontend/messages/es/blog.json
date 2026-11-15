@@ -34,7 +34,7 @@
     "moreGuides": "Más guías de recorte",
     "productGuides": "Guías del producto"
   },
-  "clipper-ai-vs-supo-live": {
+  "supoclip-vs-supo-live": {
     "title": "Clipper AI frente a supo.live: por qué gana el código abierto",
     "description": "Compara Clipper AI y supo.live para recorte de video con IA. Mira por qué Clipper AI gana en control de código abierto, autoalojamiento y flujos de video personalizables.",
     "eyebrow": "Alternativa a supo.live",
@@ -77,27 +77,27 @@
       "rows": {
         "deployment": {
           "label": "Despliegue",
-          "clipper-ai": "App alojada o despliegue autoalojado",
+          "supoclip": "App alojada o despliegue autoalojado",
           "supolive": "Servicio alojado"
         },
         "source": {
           "label": "Acceso al código",
-          "clipper-ai": "Repositorio público Proprietary",
+          "supoclip": "Repositorio público Proprietary",
           "supolive": "No anuncia en su página de inicio una opción de código abierto ni de autoalojamiento"
         },
         "usecase": {
           "label": "Uso principal",
-          "clipper-ai": "Videos largos grabados convertidos en shorts verticales",
+          "supoclip": "Videos largos grabados convertidos en shorts verticales",
           "supolive": "Transmisiones en vivo y videos grabados"
         },
         "customization": {
           "label": "Personalización",
-          "clipper-ai": "Modifica el código y configura el proveedor del LLM",
+          "supoclip": "Modifica el código y configura el proveedor del LLM",
           "supolive": "Usa el editor y los ajustes del servicio"
         },
         "usage": {
           "label": "Modelo de uso",
-          "clipper-ai": "Autoalojar usa tu cómputo y el presupuesto del proveedor",
+          "supoclip": "Autoalojar usa tu cómputo y el presupuesto del proveedor",
           "supolive": "Planes de suscripción con créditos de procesamiento"
         }
       }
@@ -193,7 +193,7 @@
     },
     "closing": "Explora nuestra <openSource>guía del recortador de video de código abierto</openSource> o lee la <comparison>comparación de Clipper AI frente a OpusClip</comparison>."
   },
-  "clipper-ai-vs-opusclip": {
+  "supoclip-vs-opusclip": {
     "title": "Clipper AI frente a OpusClip: una comparación con fuentes",
     "description": "Clipper AI frente a OpusClip en despliegue, modelo de precios, marcas de agua, elección de modelo y flujo de trabajo, con una fuente enlazada para cada afirmación.",
     "eyebrow": "Comparación con OpusClip",
@@ -206,7 +206,7 @@
       "verdict": "Respuesta corta",
       "comparison": "Lado a lado",
       "pricing": "Modelo de precios",
-      "choose-clipper-ai": "Cuándo encaja Clipper AI",
+      "choose-supoclip": "Cuándo encaja Clipper AI",
       "choose-opusclip": "Cuándo encaja OpusClip",
       "test": "Haz tu propia prueba",
       "sources": "Fuentes",
@@ -234,7 +234,7 @@
     "introNote": "Esta página no califica la calidad de los clips, la exactitud de los subtítulos ni la velocidad de procesamiento. Para comparar eso, mira <test>cómo hacer tu propia prueba</test>.",
     "verdict": {
       "heading": "La respuesta corta",
-      "clipper-ai": "<strong>Elige Clipper AI</strong> si quieres autoalojar, inspeccionar o modificar el código, elegir tus propios modelos de IA (incluidos los totalmente locales) o exportar sin marca de agua.",
+      "supoclip": "<strong>Elige Clipper AI</strong> si quieres autoalojar, inspeccionar o modificar el código, elegir tus propios modelos de IA (incluidos los totalmente locales) o exportar sin marca de agua.",
       "opusclip": "<strong>Elige OpusClip</strong> si quieres un producto administrado que nunca tengas que desplegar y quieres empezar en un plan gratis."
     },
     "comparison": {
@@ -246,34 +246,34 @@
     "rows": {
       "deployment": {
         "label": "Cómo lo ejecutas",
-        "clipper-ai": "App alojada, app de iOS o autoalojada con <compose>Docker Compose</compose>",
+        "supoclip": "App alojada, app de iOS o autoalojada con <compose>Docker Compose</compose>",
         "opusclip": "Servicio alojado"
       },
       "source": {
         "label": "Código fuente",
-        "clipper-ai": "Público, <license>Proprietary</license>"
+        "supoclip": "Público, <license>Proprietary</license>"
       },
       "pricing": {
         "label": "Modelo de precios",
-        "clipper-ai": "Alojado: planes mensuales con un número fijo de videos. Autoalojado: sin límites de plan.",
+        "supoclip": "Alojado: planes mensuales con un número fijo de videos. Autoalojado: sin límites de plan.",
         "opusclip": "Planes con créditos por minutos de procesamiento, más un plan gratis (<plans>centro de ayuda</plans>)"
       },
       "watermark": {
         "label": "Marca de agua",
-        "clipper-ai": "Ninguna; el <pipeline>pipeline de render</pipeline> no tiene un paso de marca de agua",
+        "supoclip": "Ninguna; el <pipeline>pipeline de render</pipeline> no tiene un paso de marca de agua",
         "opusclip": "Las exportaciones del plan gratis pueden incluir una (<watermark>centro de ayuda</watermark>)"
       },
       "models": {
         "label": "Elección de modelo de IA",
-        "clipper-ai": "OpenAI, Google, Anthropic, OpenRouter u Ollama local (<config>configuración</config>)"
+        "supoclip": "OpenAI, Google, Anthropic, OpenRouter u Ollama local (<config>configuración</config>)"
       },
       "transcription": {
         "label": "Transcripción",
-        "clipper-ai": "AssemblyAI, Whisper local o subtítulos de YouTube"
+        "supoclip": "AssemblyAI, Whisper local o subtítulos de YouTube"
       },
       "automation": {
         "label": "Automatización",
-        "clipper-ai": "API REST con claves por usuario y un <mcp>servidor MCP</mcp>"
+        "supoclip": "API REST con claves por usuario y un <mcp>servidor MCP</mcp>"
       }
     },
     "pricing": {
@@ -306,10 +306,10 @@
     "sources": {
       "heading": "Fuentes",
       "opus": "Centro de ayuda de OpusClip: <plans>Planes y créditos</plans> y <watermark>Marca de agua</watermark>. Los planes pueden cambiar; confirma los detalles actuales en <site>opus.pro</site>.",
-      "clipper-ai": "Clipper AI: <repo>repositorio público</repo>, incluidos <compose>docker-compose.yml</compose>, <config>documentación de configuración</config> y <billing>reglas de facturación</billing>. Los precios alojados salen de la sección de precios de clipper-ai.com."
+      "supoclip": "Clipper AI: <repo>repositorio público</repo>, incluidos <compose>docker-compose.yml</compose>, <config>documentación de configuración</config> y <billing>reglas de facturación</billing>. Los precios alojados salen de la sección de precios de clipper-ai.com."
     }
   },
-  "self-host-clipper-ai-docker": {
+  "self-host-supoclip-docker": {
     "title": "Cómo autoalojar Clipper AI con Docker Compose",
     "description": "Autoaloja Clipper AI, el recortador de video con IA de código abierto: requisitos, configuración de .env, una opción totalmente local con Whisper y Ollama, comprobaciones del primer arranque y una lista para producción.",
     "eyebrow": "Guía de autoalojamiento",
@@ -510,22 +510,22 @@
       "rows": {
         "0": {
           "feature": "Modelo de uso gratis",
-          "clipper-ai": "Código abierto y autoalojable, sin límites de plan. Tus costos son tu propio cómputo y las claves de API. La app alojada es de pago.",
+          "supoclip": "Código abierto y autoalojable, sin límites de plan. Tus costos son tu propio cómputo y las claves de API. La app alojada es de pago.",
           "opusclip": "Existe un plan gratis, pero las exportaciones pueden incluir una marca de agua de OpusClip."
         },
         "1": {
           "feature": "Descubrimiento de clips",
-          "clipper-ai": "Transcribe videos largos, puntúa segmentos y muestra momentos prometedores de formato corto.",
+          "supoclip": "Transcribe videos largos, puntúa segmentos y muestra momentos prometedores de formato corto.",
           "opusclip": "Flujo de recorte con IA pensado para encontrar clips listos para redes a partir de videos largos."
         },
         "2": {
           "feature": "Formato vertical",
-          "clipper-ai": "Recorte 9:16 centrado en el rostro, subtítulos y exportaciones listas para la plataforma.",
+          "supoclip": "Recorte 9:16 centrado en el rostro, subtítulos y exportaciones listas para la plataforma.",
           "opusclip": "Ofrece exportaciones de formato corto y reencuadre con IA para redes sociales."
         },
         "3": {
           "feature": "Control",
-          "clipper-ai": "Acceso completo al código, despliegue editable y sin atarte a un proveedor.",
+          "supoclip": "Acceso completo al código, despliegue editable y sin atarte a un proveedor.",
           "opusclip": "Producto alojado con flujos administrados y niveles de suscripción."
         }
       }

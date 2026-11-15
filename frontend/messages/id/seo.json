@@ -132,7 +132,7 @@
       }
     }
   },
-  "proprietary-video-clipper": {
+  "open-source-video-clipper": {
     "metaTitle": "Video Clipper Open Source yang Bisa Kamu Host Sendiri",
     "metaDescription": "Clipper AI adalah AI video clipper proprietary untuk deteksi highlight yang di-host sendiri, crop vertikal yang mengikuti wajah, caption, dan ekspor konten pendek.",
     "eyebrow": "Open Source & Host Sendiri",
@@ -304,7 +304,7 @@
       "body": "Gunakan rekaman milik Anda atau yang diizinkan untuk digunakan ulang. Pilih gagasan yang utuh, lalu ekspor atau terbitkan melalui opsi yang tersedia di akun Anda.",
       "button": "Ubah video saya menjadi Shorts"
     },
-    "proprietary-video-clipper": {
+    "open-source-video-clipper": {
       "title": "Pilih cara menjalankan pembuat klip Anda",
       "body": "Jalankan alur sumber terbuka di infrastruktur sendiri atau pilih hosting terkelola agar dapat berfokus membuat klip.",
       "button": "Gunakan aplikasi terkelola"
